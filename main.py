@@ -16,6 +16,7 @@ def navigate_to_example(page, example_name: str) -> str:
 
     return page.url
 
+
 # task number 2
 def run_test():
     with sync_playwright() as p:
