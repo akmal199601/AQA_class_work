@@ -6,6 +6,7 @@ EXAMPLE_NAME = "Form Authentication"
 login = "/login"
 exit = "/exit"
 checkbox = "/checkbox"
+dropdown = "/dropdown"
 
 def navigate_to_example(page, example_name: str) -> str:
 
