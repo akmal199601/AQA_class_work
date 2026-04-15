@@ -6,6 +6,7 @@ EXAMPLE_NAME = "Form Authentication"
 login = "/login"
 exit = "/exit"
 checkbox = "/checkbox"
+dropdown = "/dropdown"
 
 def navigate_to_example(page, example_name: str) -> str:
 
@@ -15,6 +16,7 @@ def navigate_to_example(page, example_name: str) -> str:
     page.wait_for_load_state("networkidle")
 
     return page.url
+
 
 # task number 2
 def run_test():
